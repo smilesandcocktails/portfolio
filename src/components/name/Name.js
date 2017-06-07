@@ -25,7 +25,10 @@ class Name extends React.Component {
         indexOfWhat: 0
     })
     }
+  }
 
+  insta () {
+    window.open('https://www.instagram.com/smilesandcocktails', '_blank')
   }
 
   componentDidMount () {
@@ -35,7 +38,7 @@ class Name extends React.Component {
   render() {
     return (
       <div >
-        <h1>CARA<br />CHEW</h1>
+        <h1><span className="firstName" onClick={(e) => this.insta(e)}>CARA</span><br />CHEW</h1>
         <p className="descriptionDiv">A {this.state.what[this.state.indexOfWhat]} Who Knows How to Code</p>
       </div>
     );
