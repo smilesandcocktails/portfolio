@@ -18,3 +18,13 @@ h1 {
   font-size: 110%;
   color: #000000;
 }
+
+@media screen and (max-width: 650px) {
+ h1 {
+   font-size: 800%;
+   line-height: 120%;
+ }
+ .descriptionDiv {
+   font-size: 80%;
+ }
+}
