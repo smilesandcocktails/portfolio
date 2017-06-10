@@ -5,24 +5,24 @@ class Name extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      indexOfWhat: 0,
-      what: ['Marketer','Traveller', 'Cancer Survivor', 'Seriously Happy Person']
+      indexOfWho: 0,
+      who: ['A Marketing Strategist', 'Who Is A', 'Full Stack Developer']
     }
-    this.changeWhat = this.changeWhat.bind(this)
+    this.changeWho = this.changeWho.bind(this)
   }
 
-  changeWhat() {
+  changeWho() {
 
-    let length = this.state.what.length
+    let length = this.state.who.length
 
-    if (this.state.indexOfWhat < length - 1) {
+    if (this.state.indexOfWho < length - 1) {
       this.setState ({
-        indexOfWhat: this.state.indexOfWhat + 1
+        indexOfWho: this.state.indexOfWho + 1
     })
     }
     else {
       this.setState ({
-        indexOfWhat: 0
+        indexOfWho: 0
     })
     }
   }
@@ -32,14 +32,14 @@ class Name extends React.Component {
   }
 
   componentDidMount () {
-    setInterval(this.changeWhat, 2000)
+    setInterval(this.changeWho, 1000)
   }
 
   render() {
     return (
       <div >
-        <h1><span className="firstName" onClick={(e) => this.insta(e)}>CARA</span><br />CHEW</h1>
-        <p className="descriptionDiv">A {this.state.what[this.state.indexOfWhat]} Who Knows How to Code</p>
+        <h1>Cara Chew</h1>
+        {/* <p className="descriptionDiv"> {this.state.who[this.state.indexOfWho]}</p> */}
       </div>
     );
   }
