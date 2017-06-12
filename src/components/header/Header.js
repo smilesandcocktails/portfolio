@@ -8,8 +8,8 @@ class Header extends React.Component {
   render() {
     return (
       <div id="header">
-        <img src={logo} className="logo" alt="carachew" />
-        <Nav />
+        <img src={logo} className="logo" alt="carachew" onClick={() => this.props.changeActiveDiv('none')} />
+        <Nav changeActiveDiv={this.props.changeActiveDiv}/>
       </div>
     );
   }

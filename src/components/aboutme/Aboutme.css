@@ -1,0 +1,23 @@
+.content {
+  text-align: center;
+  vertical-align: center;
+  display: block;
+}
+
+.left {
+  display: inline-block;
+  width: 32%;
+  height: 300px;
+  padding: 3%;
+  color: black;
+}
+
+.right {
+  display: inline-block;
+  width: 40%;
+  color: black;
+}
+
+.me {
+  width: 45%;
+}
