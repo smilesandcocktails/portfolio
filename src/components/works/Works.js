@@ -10,18 +10,18 @@ class Works extends React.Component {
   render() {
     return (
       <div>
-        <div className='thumbnail'>
-            <img src="./1.jpg" alt="The Chill Word Game"></img>
+        {/* <div className='thumbnail'>
+            <img src={require("./1.jpg")} alt="The Chill Word Game"></img>
         </div>
         <div className='thumbnail'>
-            <img src="./2.jpg" alt="TabChecker"></img>
+            <img src={require("./2.jpg")} alt="TabChecker"></img>
         </div>
         <div className='thumbnail'>
-            <img src="./3.jpg" alt="Cache"></img>
+            <img src={require("./3.jpg")} alt="Cache"></img>
         </div>
         <div className='thumbnail'>
-            <img src="./4.jpg" alt="TouchType"></img>
-        </div>
+            <img src={require("./4.jpg")} alt="TouchType"></img>
+        </div> */}
       </div>
     );
   }
