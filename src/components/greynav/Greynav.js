@@ -7,10 +7,10 @@ class Greynav extends React.Component {
     return (
       <div className='greynav'>
           <ul className='worksul'>
-            <li className='workslist'>The Chill Word Game</li>
-            <li className='workslist'>TabChecker</li>
-            <li className='workslist'>Cache</li>
-            <li className='workslist'>TouchType</li>
+            <li className='workslist' onClick={() => this.props.chosenWork(0)}>The Chill Word Game</li>
+            <li className='workslist' onClick={() => this.props.chosenWork(1)}>TabChecker</li>
+            <li className='workslist' onClick={() => this.props.chosenWork(2)}>Cache</li>
+            <li className='workslist' onClick={() => this.props.chosenWork(3)}>TouchType</li>
           </ul>
       </div>
     );

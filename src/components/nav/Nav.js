@@ -8,7 +8,7 @@ class Nav extends React.Component {
       <div>
         <ul className='nav'>
           <li className='navItems' onClick={() => this.props.changeActiveDiv('aboutme')}>About Me</li>
-          <li className='navItems' onClick={() => this.props.changeActiveDiv('portfolio')}>PortFolio</li>
+          <li className='navItems' onClick={() => this.props.changeActiveDiv('portfolio')}>Portfolio</li>
         </ul>
       </div>
     );

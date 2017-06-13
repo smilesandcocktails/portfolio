@@ -27,17 +27,16 @@ class App extends Component {
           <Header changeActiveDiv={this.changeActiveDiv} />
         </div>
 
-        {this.state.active === 'aboutme' &&
-          <div className='aboutme'>
+
+          <div className={'aboutme ' + (this.state.active === 'aboutme' ? 'expandedaboutme' : 'notexpanded')}>
             <Aboutme />
           </div>
-        }
 
-        {this.state.active === 'portfolio' &&
-          <div className='contentDiv'>
+
+          <div className={'contentDiv ' + (this.state.active === 'portfolio' ? 'expandedportfolio' : 'notexpanded')}>
             <Works />
           </div>
-        }
+
         <p className='footer'>carachew@gmail.com</p>
       </div>
     );

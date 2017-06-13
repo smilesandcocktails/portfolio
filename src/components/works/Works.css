@@ -1,4 +1,32 @@
-.thumbnail {
-  display: inline-block;
+.worksParent {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  height: 0;
+}
 
+.worksDiv {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 2%;
+}
+
+.thumbnail {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.thumbnail img {
+  width: 80%;
+  /*margin-left: 20%;*/
+}
+
+.writeup {
+  width: 50%;
+  padding: 0 15px;
 }
