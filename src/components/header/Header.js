@@ -7,7 +7,8 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div id="header">
+      <div className='header'>
+        <h1>CARA CHEW</h1>
         <img src={logo} className="logo" alt="carachew" onClick={() => this.props.changeActiveDiv('none')} />
         <Nav changeActiveDiv={this.props.changeActiveDiv}/>
       </div>

@@ -3,6 +3,8 @@
   display: flex;
   flex-flow: column;
   height: 0;
+  z-index: -1;
+
 }
 
 .worksDiv {
@@ -23,6 +25,7 @@
 
 .thumbnail img {
   width: 80%;
+
   /*margin-left: 20%;*/
 }
 

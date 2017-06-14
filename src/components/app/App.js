@@ -23,21 +23,21 @@ class App extends Component {
   render() {
     return (
       <div className="AppContainer">
-        <div className='headerDiv'>
+        <div className='headerDiv' style={this.state.active !== 'none' ? {height: '30vh'} : {height: '50vh'}}>
           <Header changeActiveDiv={this.changeActiveDiv} />
         </div>
 
+        <div className='aboutme' style={this.state.active === 'aboutme' ? {height: '50vh'} : {height: '0', overflow: 'hidden'}}>
+          <Aboutme />
+        </div>
 
-          <div className={'aboutme ' + (this.state.active === 'aboutme' ? 'expandedaboutme' : 'notexpanded')}>
-            <Aboutme />
-          </div>
 
+        <div className={'contentDiv ' + (this.state.active === 'portfolio' ? 'expandedportfolio' : 'notexpanded')}>
+          {/* <Works /> */}
+        </div>
 
-          <div className={'contentDiv ' + (this.state.active === 'portfolio' ? 'expandedportfolio' : 'notexpanded')}>
-            <Works />
-          </div>
-
-        <p className='footer'>carachew@gmail.com</p>
+        <div className='footer' style={this.state.active !== 'none' ? {height: '20vh'} : {height: '50vh'}}>
+          carachew@gmail.com</div>
       </div>
     );
   }

@@ -4,8 +4,6 @@
   -ms-align-items: center;
   align-items: center;
   justify-content: center;
-  /*max-height: 100vh;
-  max-width: 100%;*/
   width: 100%;
   height: 100vh;
   margin: 0;
@@ -16,44 +14,46 @@
 }
 
 .headerDiv {
-  /*height: 185px;*/
-
+  display: flex;
+  -ms-align-items: center;
+  align-items: flex-end;
+  justify-content: center;
+  /*background-color: tomato;*/
 }
 
-.notexpanded {
-  height: 0;
+/*.notexpanded {
+  height: 0px;
+  margin: 0 auto;
 }
 
 .expandedaboutme {
   background-color: green;
-  height: 50%;
+  height: 100vh;
 }
 
 .expandedportfolio {
   background-color: tomato;
-  height: 50%;
+  height: 100vh;
 }
 
 .contentDiv {
   transition: 1s;
   background-color: yellow;
   width: 100%;
-}
+}*/
 
 .aboutme {
   transition: 1s;
+  /*transition-timing-function: ease-in;*/
   width: 100%;
 }
 
 .footer {
+  color: #000000;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
-  /*position: fixed;*/
-  /*bottom: 0;*/
   width: 100%;
-  height: 30px;
-  font-size: 90%;
-  background-color: transparent;
-  /*color: #000000;*/
+  /*height: 20%;*/
+  font-size: 80%;
+  /*background-color: yellow;*/
 
 }
