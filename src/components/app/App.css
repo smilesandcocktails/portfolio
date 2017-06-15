@@ -18,6 +18,7 @@
   -ms-align-items: center;
   align-items: flex-end;
   justify-content: center;
+  width: 100%;
   /*background-color: tomato;*/
 }
 
@@ -34,26 +35,37 @@
 .expandedportfolio {
   background-color: tomato;
   height: 100vh;
-}
+}*/
 
 .contentDiv {
   transition: 1s;
-  background-color: yellow;
   width: 100%;
-}*/
+}
 
 .aboutme {
   transition: 1s;
-  /*transition-timing-function: ease-in;*/
   width: 100%;
 }
 
 .footer {
   color: #000000;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  /*align-items: flex-end;*/
   width: 100%;
-  /*height: 20%;*/
   font-size: 80%;
-  /*background-color: yellow;*/
+}
 
+.footer p {
+  padding-bottom: 2%;
+}
+
+.icons {
+  width: 40px;
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
 }
