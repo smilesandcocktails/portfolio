@@ -22,21 +22,6 @@
   /*background-color: tomato;*/
 }
 
-/*.notexpanded {
-  height: 0px;
-  margin: 0 auto;
-}
-
-.expandedaboutme {
-  background-color: green;
-  height: 100vh;
-}
-
-.expandedportfolio {
-  background-color: tomato;
-  height: 100vh;
-}*/
-
 .contentDiv {
   transition: 1s;
   width: 100%;
