@@ -29,6 +29,9 @@
 .thumbnail a {
   width: 100%;
   height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolioImage {
@@ -40,4 +43,31 @@
   padding: 2% 4%;
   /*height: 100%;*/
   /*padding: 0 15px;*/
+}
+
+.skillIconDiv a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+i {
+  color: black;
+  font-size: 200%;
+}
+
+.builtWithText {
+  font-size: 70%;
+  color: black;
+}
+
+.skillIconDiv{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.skillIcon {
+  font-size: 300%;
 }

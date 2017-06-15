@@ -28,11 +28,11 @@ class App extends Component {
     return (
       <div className="AppContainer">
 
-        <div className='headerDiv'  style={this.state.active !== 'none' ? {height: '80vh'} : {height: '50vh'}}>
+        <div className='headerDiv'  style={this.state.active !== 'none' ? {height: '80%'} : {height: '50%'}}>
           <Header logo={this.state.logo} changeActiveDiv={this.changeActiveDiv} />
         </div>
 
-        <div className='aboutme' style={this.state.active !== 'none' ? {height: '62vh'} : {height: '0', overflow: 'hidden'}}>
+        <div className='aboutme' style={this.state.active !== 'none' ? {height: '62%'} : {height: '0', overflow: 'hidden'}}>
 
         {this.state.active === 'aboutme' &&
           <Aboutme active={this.state.active}/>
@@ -43,7 +43,7 @@ class App extends Component {
         </div>
 
 
-        <div className='footer' style={this.state.active !== 'none' ? {height: '40vh'} : {height: '35vh'}}>
+        <div className='footer' style={this.state.active !== 'none' ? {height: '40%'} : {height: '35%'}}>
           <p><a href='mailto:carachew@gmail.com'>carachew@gmail.com</a></p></div>
       </div>
     );
