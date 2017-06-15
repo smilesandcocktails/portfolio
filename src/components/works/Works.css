@@ -74,3 +74,19 @@ i {
   font-size: 300%;
 
 }
+
+@media screen and (max-width: 650px) {
+
+  .worksDiv {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .writeup {
+    width: 100%;
+  }
+
+  i {
+    font-size: 150%;
+  }
+}

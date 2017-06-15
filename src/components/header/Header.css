@@ -1,6 +1,10 @@
 .header {
   width: auto;
   padding: 13px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /*.header p {
@@ -33,7 +37,7 @@ h1 {
 
 
  .logo {
-   width: 70%;
+   width: 80%;
    text-align: center;
  }
 }

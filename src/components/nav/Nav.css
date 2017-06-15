@@ -3,6 +3,7 @@
   -ms-align-items: center;
   align-items: center;
   justify-content: center;
+  width: 100%;
 }
 
 .nav {
@@ -10,6 +11,7 @@
   -ms-align-items: center;
   align-items: center;
   justify-content: center;
+  flex-direction: row;
   font-size: 120%;
   width: 100%;
   list-style: none;
@@ -35,6 +37,10 @@
    /*position: absolute;*/
    padding: 3px 0px 0px 0px;
 
+ }
+
+ .navItems {
+   font-size: 70%;
  }
 
 }

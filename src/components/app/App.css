@@ -69,3 +69,23 @@ p {
   font-size: 90%;
   color: #000000;
 }
+
+@media screen and (max-width: 650px) {
+
+  .aboutmePara {
+    font-size: 75%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+
+  .portfolioPara {
+    font-size: 75%;
+    text-align: center;
+  }
+
+  .footer {
+    margin-top: 8%;
+  }
+}

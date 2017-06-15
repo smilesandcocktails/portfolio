@@ -28,3 +28,15 @@
   margin-top: 7px;
   height: 100%;
 }
+
+@media screen and (max-width: 650px) {
+  .worksul  {
+    flex-wrap: wrap;
+  }
+
+  .workslist {
+    font-size: 70%;
+    margin-top: 0;
+    width: 50%;
+  }
+}
