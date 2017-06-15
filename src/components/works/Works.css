@@ -45,6 +45,7 @@
   /*padding: 0 15px;*/
 }
 
+
 .skillIconDiv a {
   display: flex;
   justify-content: space-around;
@@ -53,7 +54,8 @@
 }
 
 i {
-  color: black;
+  /*color: black;*/
+  color: #f03278;
   font-size: 200%;
 }
 
@@ -70,4 +72,5 @@ i {
 
 .skillIcon {
   font-size: 300%;
+
 }
