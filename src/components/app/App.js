@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Cover from '../cover/Cover';
 import Header from '../header/Header';
 import Works from '../works/Works';
 import Aboutme from '../aboutme/Aboutme';

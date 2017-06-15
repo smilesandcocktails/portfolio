@@ -11,7 +11,7 @@ class Aboutme extends React.Component {
           <img src='https://i.imgur.com/WRNTqMG.jpg' alt="Cara Chew" className='me' style={this.props.active !== 'none' ? {height: '100%'} : {height: '0', overflow: 'hidden'}}></img>
         </div>
         <div className='right'>
-          <p>Hey there! <br />Thanks for checking out my fullstack developer website. I'm a fullstack marketer & developer. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+          <p>Hey there! <br />Welcome to my web development portfolio! I design and develop web applications. </p>
           <div class='aboutMeIcons'>
             <a target='_blank' rel='noopener noreferrer' href='https://www.instagram.com/smilesandcocktails'><img src='https://i.imgur.com/BxElD85.jpg' className='
             icons'></img></a>
