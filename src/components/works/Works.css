@@ -84,10 +84,15 @@ i {
 
   .writeup {
     width: 100%;
+    margin-top: 0;
   }
 
+  .thumbnail {
+    align-items: flex-end;
+  }
   .thumbnail a {
-    height: 30%;
+    height: 60%;
+    align-items: flex-end;
   }
 
   .portfolioImage {

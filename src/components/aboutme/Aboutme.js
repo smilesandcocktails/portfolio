@@ -20,7 +20,7 @@ class Aboutme extends React.Component {
             I am a full stack marketer && a full stack developer. Besides being a traditional & digital marketing strategist with 10 years of experience, I also design and develop web applications.
             <br />
             <br />
-            When I'm not working, I love to travel, paint, practice taiji, and go to the gym.</p>
+            When I'm not working, I love to travel, paint, practice taiji, and go to the gym. Feel free to drop me a line!</p>
             <br />
           <div className='aboutMeIcons'>
             <a target='_blank' rel='noopener noreferrer' href='https://www.instagram.com/smilesandcocktails'><img src='https://i.imgur.com/OqQziE6.jpg' className='
