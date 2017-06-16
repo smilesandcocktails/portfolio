@@ -86,6 +86,14 @@ i {
     width: 100%;
   }
 
+  .thumbnail a {
+    height: 30%;
+  }
+
+  .portfolioImage {
+    height: 100%;
+  }
+
   i {
     font-size: 150%;
   }
