@@ -75,7 +75,8 @@ i {
 
 }
 
-@media screen and (max-width: 650px) {
+/*Mobile Portrait Breakpoint*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
 
   .worksDiv {
     flex-direction: column;
@@ -87,19 +88,52 @@ i {
     margin-top: 0;
   }
 
+  .skillIconDiv {
+    width: 100%;
+    font-size: 70%;
+  }
+}
+
+@media only screen and (min-device-width : 568px) and (max-device-width : 767px)  {
+  .skillIconDiv {
+    font-size: 50%;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  .worksDiv {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .writeup {
+    width: 100%;
+    margin-top: 0;
+  }
+
+  .skillIconDiv {
+    width: 100%;
+    font-size: 100%;
+  }
+}
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
   .thumbnail {
-    align-items: flex-end;
+    width: 50%;
   }
+
   .thumbnail a {
-    height: 60%;
-    align-items: flex-end;
+    width: 100%;
   }
 
-  .portfolioImage {
-    height: 100%;
+  .thumbnail a img {
+    width: 100%;
+    height: auto;
   }
 
-  i {
-    font-size: 150%;
+  .skillIconDiv {
+    width: 100%;
+    font-size: 80%;
   }
 }

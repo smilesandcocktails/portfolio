@@ -29,14 +29,36 @@
   height: 100%;
 }
 
-@media screen and (max-width: 650px) {
-  .worksul  {
+/*Mobile Portrait Breakpoint*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+  .worksul {
     flex-wrap: wrap;
   }
 
   .workslist {
-    font-size: 70%;
+    font-size: 50%;
+    width: 50%;
     margin-top: 0;
+  }
+
+}
+@media only screen and (min-device-width : 568px)and (max-device-width : 767px)  {
+  .workslist {
     width: 100%;
+    font-size: 35%;
+  }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  .workslist {
+    font-size: 100%;
+  }
+}
+
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  .workslist {
+    font-size: 100%;
   }
 }
